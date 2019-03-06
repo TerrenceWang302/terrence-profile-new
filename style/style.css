@@ -1,0 +1,272 @@
+/*
+* Overall setting
+*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* setting classes */
+.centered {
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.des-font-size {
+    font-size: 1.6rem;
+}
+
+.change-height {
+    -webkit-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+* Menu
+*/
+.menu-container {
+  right: 0;
+  top: 0;
+  z-index: 999;
+  width: 10%;
+}
+
+.menu-content {
+    display: block;
+}
+
+.menu-content,
+.menu-content i {
+    color: #1B325F;
+}
+
+.menu-content:hover,
+.menu-content:hover i {
+    color: #E9F2F9;
+}
+
+.menu-content span {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/*
+*  Introduction session
+*/
+.first {
+  background: url(../assets/bg-1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro {
+    width: 70%;
+    position: relative;
+}
+
+.intro span {
+    color: #3A89C9;
+}
+
+.intro-des i {
+    color: #3A89C9;
+}
+
+/*
+* Business Analysis session
+*/
+.second {
+    background-image: linear-gradient(#040404, #041D3A);
+/*
+  
+*/
+}
+
+#box2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.ba {
+    width: 90%;
+    position: absolute;
+}
+
+.ba-des {
+    margin: auto;
+}
+
+.ba .card-text:first-of-type {
+    font-size: 2.5rem;
+}
+
+.card-title,
+.card-text:first-of-type {
+    color: #1B325F;
+}
+
+/*
+* web development session
+*/
+.third {
+    background: url(../assets/bg-2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.wd {
+    width: 80%;
+    position: relative;
+}
+
+.wd-projects {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+}
+
+/*
+* marketing session
+*/
+.forth {
+    position: relative;
+    background-image: url(../assets/bg-3.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.marketing {
+    width: 70%;
+    position: absolute;
+}
+
+.card-img-top {
+    height: 65%;
+}
+
+/*
+* media queries
+*/
+
+@media only screen and (max-width: 1600px) {
+    /*  change the base setting of the font size  */
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    /* change the base setting of the font size  */
+    html {
+        font-size: 12px;
+    }
+    
+    .menu-container {
+        width: 15%;
+    }
+    
+    .ba,
+    .wd {
+        width: 80%;
+    }
+    
+    .card-img-top {
+        height: 50%;
+    }
+    
+    .card-title {
+        font-size: 1.5rem;
+    }
+    
+    .card-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu-container {
+        visibility: hidden;
+    }
+    
+    .wd-projects {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    /*  change the base setting of the font size  */
+    html {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /*  change the base setting of the font size  */
+    html {
+        font-size: 9px;
+    }
+    
+    .intro-des p,
+    .des-font-size {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    /*  change the base setting of the font size  */
+    html {
+        font-size: 7px;
+    }
+    
+    .intro .display-4 {
+        font-size: 6rem;
+    }
+    
+    .intro-des p,
+    .des-font-size {
+        font-size: 2.5rem;
+    }
+    
+    .card-title {
+        font-size: 1.8rem;
+    }
+    
+    .card-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /*  change the base setting of the font size  */
+    html {
+        font-size: 5px;
+    }
+    
+    .intro-des p,
+    .des-font-size {
+        font-size: 3rem;
+    }
+    
+    .display-flex {
+        display: none;
+    }
+}

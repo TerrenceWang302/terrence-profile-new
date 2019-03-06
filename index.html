@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
+  <!-- customer css -->
+  <link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+<body class="text-center">
+  <!-- start of the menu block -->
+  <div class="position-fixed vh-100 menu-container d-flex flex-column align-items-end justify-content-center">
+    <a href="#box1" class="menu-content text-decoration-none mr-3 mb-2"><span>Home</span><i class="fas fa-circle"></i></a>
+    <a href="#box2" class="menu-content text-decoration-none mr-3 mb-2"><span>Business Analysis</span><i class="fas fa-circle"></i></a>
+    <a href="#box3" class="menu-content text-decoration-none mr-3 mb-2"><span>Web Development</span><i class="fas fa-circle"></i></a>
+    <a href="#box4" class="menu-content text-decoration-none mr-3"><span>Marketing</span><i class="fas fa-circle"></i></a>
+  </div>
+  <!-- end of the menu block -->
+  
+  <!-- start of the intro -->
+  <div class="container-fluid vw-100 vh-100 first" id="box1">
+      <div class="intro centered text-left">
+          <p class="display-4 text-white"><span class="font-weight-bold">Hi!</span> I'm <span class="font-weight-bold">Terrence</span>.</p>
+          <p class="display-2 text-white">I am a <br><span class="display-1 font-weight-bold text-white" id="type"></span></p>
+          <div class="intro-des lead text-white mt-5 text-right des-font-size">
+              <p class="">Business Analysis &nbsp; <i class="fas fa-user-edit"></i></p>
+              <p class="">Web Development &nbsp; <i class="fas fa-keyboard"></i></p>
+              <p class="">Marketing Strategy and Planning &nbsp; <i class="fas fa-pen-fancy"></i> </p>
+          </div>
+      </div>
+  </div>
+  <!-- end of intro block -->
+  
+  <!-- start of business analysis block -->
+  <div class="container-fluid vw-100 vh-100 second" id="box2">
+      <div class="ba centered">
+          <p class="display-3 text-white font-weight-bold">Business Analysis</p>
+          <p class="ba-des lead text-white w-75 mt-3 mb-sm-5 mb-xs-5 des-font-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="card-container row display-flex mt-lg-5 mt-md-2 mt-sm-5 mt-xs-5 p-4">
+              <div class="card text-center col-3">
+                <div class="card-body">
+                  <p class="card-text"><i class="far fa-building"></i></p>
+                  <h5 class="card-title font-weight-bold">Business Process Improvement</h5>
+                  <p class="card-text">Successful innovation and integration leading to process optimisation</p>
+                </div>
+              </div>
+              <div class="card text-center col-3">
+                <div class="card-body">
+                 <p class="card-text"><i class="far fa-calendar-alt"></i></p>
+                  <h5 class="card-title font-weight-bold">Project Scheduling</h5>
+                  <p class="card-text">Over 90% of projects led were finished in due time</p>
+                </div>
+              </div>
+              <div class="card text-center col-3">
+                <div class="card-body">
+                 <p class="card-text"><i class="far fa-paper-plane"></i></p>
+                  <h5 class="card-title font-weight-bold">Strategic Planning</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- end of business analysis block -->
+  
+  <!-- start of Web developer block -->
+  <div class="container-fluid vw-100 vh-100 third" id="box3">
+      <div class="wd p-5 centered">
+          <p class="display-3 font-weight-bold text-white">I Build Website as well</p>
+          <p class="wd-des lead text-white des-font-size mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="wd-projects p-2">
+              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://terrencewang302.github.io/landingPage/" target="_blank"><img src="assets/project-1.png" class="d-block w-100 rounded" alt="project-1"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Mimimal Agency Template</h5>
+                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://terrencewang302.github.io/modern/" target="_blank"><img src="assets/project-2.png" class="d-block w-100 rounded" alt="project-2"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Modern Agency Template</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
+      </div>   
+  </div>
+  <!-- end of Web developer block -->
+  
+  <!-- start of Marketing block -->
+  <div class="container-fluid vw-100 vh-100 forth" id="box4">
+      <div class="marketing centered">
+          <p class="display-3 font-weight-bold text-white">Marketing</p>
+          <p class="mk-des lead text-white w-75 mx-auto des-font-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="card-container row card-deck mt-5 display-flex">
+              <div class="card">
+                <img src="./assets/mk-1.jpg" class="card-img-top change-height" alt="Copywriting Image">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Copywriting</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/mk-2.jpg" class="card-img-top change-height" alt="Events Organisation Image">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Events Organisation</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/mk-3.jpg" class="card-img-top change-height" alt="Social Media Image">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Social Media Management</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- end of Marketing block -->
+  
+  <!-- jQuery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap core js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- jquery scrollTo package -->
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <!-- jquery localScroll package -->
+  <script src="js/jquery.localScroll.min.js"></script>
+  <!-- load the typed package -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <!-- creating particles -->
+  <script src="js/particles.min.js"></script>
+  <!-- custom js -->
+  <script src="js/main.js"></script>
+  <!-- load particle stats file -->
+  <script src="js/lib/stats.js"></script>
+  <script>
+      var count_particles, stats, update;
+      stats = new Stats;
+      stats.setMode(0);
+      stats.domElement.style.position = 'absolute';
+      stats.domElement.style.left = '0px';
+      stats.domElement.style.top = '0px';
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector('.js-count-particles');
+      update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script>
+</body>
+</html>
